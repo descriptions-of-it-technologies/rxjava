@@ -9,8 +9,6 @@
 * [Documentation.](#documentation)
 * [Reactive Programming.](https://github.com/descriptions-of-it-technologies/reactive-programming)  
 * [Functional Reactive Programming.](https://github.com/descriptions-of-it-technologies/functional-reactive-programming)  
-* [Pros.](#pros)
-* [Cons.](#cons)
 * [Help](#help)
 
 
@@ -27,27 +25,35 @@
 * [RxJava: Reactive Extensions for the JVM.](https://github.com/ReactiveX/RxJava)
 * [ReactiveX](http://reactivex.io/)
 * [Observer Pattern.]()
-
-
-
-## Pros.
-
+* [The difference between the Runnable and Callable interfaces in Java.](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/concurrent/Callable.html)
 
 
 
 
-## Cons.
+## Operators Categories.
+* Creating Observables.
+* Transforming Observables.
+* Filtering Observables.
+* Combining Observables.
+* Error Handling Operators.
+* Observable Utility Operators.
+* Conditional and Boolean Operators.
+* Mathematical and Aggregate Operators.
+* Backpressure Operators. 
+* Connectable Observable Operators
+* Operators to Convert Observables
 
 
 
 
 
 ## Operators.
-* retry()
-  * you  need to be careful if the error repeats endlessly.
+* Error Handling Operators.
+  * retry()
+    * be careful if the error repeats endlessly.
     
 * cache()
-  * you to be careful with memory.
+  * be careful with memory.
 
 
 
