@@ -58,5 +58,11 @@
 
 
 
+## 
+The key difference is that Observable pushes the items, while the streams and sequences pull the items.
+This may seem subtle, but the impact of a push-based iteration is far more powerful than a pull-based one.
+
+
+
 ## Help.
 
